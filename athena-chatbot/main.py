@@ -8,7 +8,7 @@ class ChatResponse(BaseModel):
     answer: str
 
 def main():
-    st.image("logo.png", width=120)
+    st.image("athena-chatbot/logo.png", width=120)
     st.title("Athena AI")
 
     st.markdown(
